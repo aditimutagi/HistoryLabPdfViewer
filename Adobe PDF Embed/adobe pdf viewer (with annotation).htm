@@ -1,0 +1,13 @@
+<div id="adobe-dc-view" style="height: 600px; width: 600px;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "bb347a5844674b24a65a607e68941c1e", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://en.wikipedia.org/api/rest_v1/page/pdf/New_Horizons"}},
+			metaData:{fileName: "Wikipedia New Horizons"}
+		}, {showAnnotationTools: true});
+	
+	});
+</script>
+
