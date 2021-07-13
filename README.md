@@ -7,4 +7,5 @@
                 current status: pdf won't open to specified page, still opens to page 1
     2. PDF.js PDF Viewer:
           a. Simple PDF Viewer (based on tutorial): zoom, page scroll
-          b. PDF.js API (07/10/2021, to be updated): more complex search, download, print, presentation mode
+          b. PDF.js API: more complex search, download, print, presentation mode
+                no annotation feature
