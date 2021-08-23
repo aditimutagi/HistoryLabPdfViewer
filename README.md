@@ -9,3 +9,6 @@
           a. Simple PDF Viewer (based on tutorial): zoom, page scroll
           b. PDF.js API: more complex search, download, print, presentation mode
                 no annotation feature
+    3. Final PDF Viewer:
+           a. Adobe PDF Viewer: includes goTo page and search word functions
+           b. Main.html: landing page to enter search word or page number
